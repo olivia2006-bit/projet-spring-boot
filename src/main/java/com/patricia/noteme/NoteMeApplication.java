@@ -1,14 +1,14 @@
-package com.example.monprojetspring;
+package com.patricia.noteme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MonprojetspringApplication {
+public class NoteMeApplication {
 
 	public static void main(String[] args) {
 		System.out.println("kdwfjdkfdkjfkdfdd");
-		SpringApplication.run(MonprojetspringApplication.class, args);
+		SpringApplication.run(NoteMeApplication.class, args);
 	}
 
 }
