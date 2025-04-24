@@ -1,6 +1,7 @@
 package com.patricia.noteme.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,8 +24,16 @@ public class Partage implements Serializable {
 
     private Date dateExpiration;
 
-    @ManyToOne private Utilisateur utilisateurEnvoyeur;
-    @ManyToOne private Utilisateur utilisateurReceveur;
-    @ManyToOne private Note note;
+    @ManyToOne
+    @NotNull
+    private Utilisateur utilisateurEnvoyeur;
+
+    @ManyToOne
+    @NotNull
+    private Utilisateur utilisateurReceveur;
+
+    @ManyToOne
+    @NotNull
+    private Note note;
 
 }

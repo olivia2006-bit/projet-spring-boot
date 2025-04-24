@@ -1,6 +1,7 @@
 package com.patricia.noteme.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -26,7 +27,11 @@ public class Note implements Serializable {
     private String emprunte;
     private String path;
 
-    @ManyToOne private Utilisateur utilisateur;
-    @ManyToOne private Dossier dossier;
+    @ManyToOne
+    @NotNull(message = "l'utilisateur est obligatoire")
+    private Utilisateur utilisateur;
+
+    @ManyToOne
+    private Dossier dossierParent;
 
 }
