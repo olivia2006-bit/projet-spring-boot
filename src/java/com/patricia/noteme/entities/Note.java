@@ -1,4 +1,4 @@
-package com.patricia.noteme.entities;
+package src.java.com.patricia.noteme.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Note implements Serializable {
+public class Note extends TraceBaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
