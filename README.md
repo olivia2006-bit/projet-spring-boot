@@ -1,7 +1,7 @@
 # *Application de prise et de partage de note assisté par intelligence artificiel* 
 
 ## Description du projet
-
+NoteMe est une application de prise et de partage de note qui permettra à un etudiants de prendre et de partager avec d'autre des notes de cours, de faire des synthese de cours et d'avoir la possibilité d'etre epauler par une intelligence artificielle via chatbot
 
 ## fonctionnalités du projets
 
@@ -25,7 +25,7 @@
 
 ## technologies utilisées
 dans le cadre de ce projet, les technologies utilisées sont :
--[x] spring boot
+ -[x] spring boot
 
 
 ## outil de developpement 
