@@ -13,6 +13,4 @@ public class UtilisateurSlimDto {
     private int id;
 
     private String nom;
-
-    private String email;
 }

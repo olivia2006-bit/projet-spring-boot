@@ -1,4 +1,4 @@
-package com.patricia.noteme;
+package src.java.com.patricia.noteme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

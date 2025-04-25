@@ -1,7 +1,6 @@
 package src.java.com.patricia.noteme.dtos;
 
 
-import com.patricia.noteme.dtos.TraceBaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
